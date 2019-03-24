@@ -1,0 +1,11 @@
+;; spacemacs theme
+;; (require 'spacemacs-dark-theme)
+;; (load-theme 'spacemacs-dark t)
+
+;; tomorrow theme
+(require 'color-theme-sanityinc-tomorrow)
+(color-theme-sanityinc-tomorrow-bright)
+
+;; spaceline
+(require 'spaceline-config)
+(spaceline-spacemacs-theme)
