@@ -24,6 +24,13 @@
 ;; recent files
 (depends-on "recentf-ext")
 
+;; Company
+(depends-on "company")
+
+;; anaconda
+(depends-on "anaconda-mode")
+(depends-on "company-anaconda")
+
 ;; cask init
 (depends-on "bind-key")
 (depends-on "cask")
