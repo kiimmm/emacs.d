@@ -4,7 +4,7 @@
 (require 'cl)
 
 ;; use-package
-(require 'use-package)
+;; (require 'use-package)
 
 ;; scroll one line
 (setq scroll-conservatively 35

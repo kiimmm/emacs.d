@@ -1,5 +1,5 @@
 ;; spacemacs theme
-(require 'spacemacs-dark-theme)
+;; (require 'spacemacs-dark-theme)
 (load-theme 'spacemacs-dark t)
 
 ;; tomorrow theme
@@ -7,5 +7,5 @@
 ;; (load-theme 'color-theme-sanityinc-tomorrow-bright t)
 
 ;; spaceline
-(require 'spaceline-config)
+;; (require 'spaceline-config)
 (spaceline-spacemacs-theme)
