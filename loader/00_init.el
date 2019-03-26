@@ -21,7 +21,8 @@
 ;; Enter with indent
 (electric-indent-mode 1)
 
-;; func after-load
+;; after-load Function
+;; copy from https://github.com/purcell/emacs.d/blob/a97dc5a44242f7f78c70335a9532bc657ea0a8d8/lisp/init-utils.el
 (if (fboundp 'with-eval-after-load)
     (defalias 'after-load 'with-eval-after-load)
   (defmacro after-load (feature &rest body)

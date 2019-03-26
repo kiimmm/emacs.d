@@ -30,6 +30,7 @@
 ;; anaconda
 (depends-on "anaconda-mode")
 (depends-on "company-anaconda")
+(depends-on "rx")
 
 ;; cask init
 (depends-on "bind-key")
