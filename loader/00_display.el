@@ -1,3 +1,5 @@
+;; require Font Hack
+;; https://github.com/source-foundry/Hack
 (when (member "Hack" (font-family-list)) (set-frame-font "Hack-16" t t))
 (setq-default line-spacing 5)
 
