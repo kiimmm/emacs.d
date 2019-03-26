@@ -1,0 +1,7 @@
+/*
+!/Cask
+!/init.el
+!/loader
+!/README.md
+!/.gitignore
+/loader/*.el~
