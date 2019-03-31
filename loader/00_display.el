@@ -1,7 +1,10 @@
 ;; require Font Hack
 ;; https://github.com/source-foundry/Hack
-(when (member "Hack" (font-family-list)) (set-frame-font "Hack-16" t t))
+(when (member "Hack" (font-family-list)) (set-frame-font "Hack-18" t t))
 (setq-default line-spacing 5)
+
+;; full-screan when open emacs
+(set-frame-parameter nil 'fullscreen 'fullboth)
 
 ;; hide tool bar
 (tool-bar-mode -1)
