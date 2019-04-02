@@ -18,6 +18,11 @@
 ;; TAB & indent
 (setq default-tab-width 4)
 (setq standard-indent 4)
+;; indent for C
+(setq-default c-basic-offset 4
+                  tab-width 4
+                  indent-tabs-mode t)
+
 ;; Enter with indent
 (electric-indent-mode 1)
 
