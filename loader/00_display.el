@@ -3,6 +3,10 @@
 (when (member "Hack" (font-family-list)) (set-frame-font "Hack-18" t t))
 (setq-default line-spacing 5)
 
+;; nyan-mode
+(nyan-mode t)
+(nyan-start-animation)
+
 ;; full-screan when open emacs
 (set-frame-parameter nil 'fullscreen 'fullboth)
 
