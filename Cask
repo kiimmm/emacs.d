@@ -32,6 +32,11 @@
 (depends-on "company-anaconda")
 (depends-on "rx")
 
+;; neotree
+(depends-on "neotree")
+;; all-the-icons
+(depends-on "all-the-icons")
+
 ;; cask init
 (depends-on "bind-key")
 (depends-on "cask")
