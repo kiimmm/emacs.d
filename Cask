@@ -37,6 +37,9 @@
 ;; all-the-icons
 (depends-on "all-the-icons")
 
+;; tabnine
+(depends-on "company-tabnine")
+
 ;; cask init
 (depends-on "bind-key")
 (depends-on "cask")
